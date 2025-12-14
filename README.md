@@ -73,7 +73,7 @@ test1/
 
 3. **添加依赖库**
    - 将MySQL驱动（mysql-connector-java-8.0.43.jar）放入 `WebContent/WEB-INF/lib/` 目录
-   - 将JSTL库放入 `WebContent/WEB-INF/lib/` 目录：
+   - 将JSTL库放入 `Webapp/WEB-INF/lib/` 目录：
      * **方案一（推荐）**：下载 `jstl-1.2.jar` 和 `standard-1.1.2.jar`
        - jstl-1.2.jar: https://repo1.maven.org/maven2/javax/servlet/jstl/1.2/jstl-1.2.jar
        - standard.jar: https://repo1.maven.org/maven2/taglibs/standard/1.1.2/standard-1.1.2.jar
@@ -82,7 +82,7 @@ test1/
        - jakarta.servlet.jsp.jstl-api-2.0.0.jar
    
    ⚠️ **重要**：如果遇到 "Can not find the tag library descriptor" 错误，请确保：
-   1. JAR文件已正确放置在 `WebContent/WEB-INF/lib/` 目录
+   1. JAR文件已正确放置在 `Webapp/WEB-INF/lib/` 目录
    2. 在Eclipse中刷新项目（右键项目 -> Refresh）
    3. 重新启动Tomcat服务器
    详细说明请查看 `JSTL配置说明.md` 文件
